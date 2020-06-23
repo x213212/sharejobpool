@@ -1,0 +1,40 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  height: 100%;
+}
+#container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+header{
+  background: #999;
+  flex: 0 0 auto;
+}
+.main{
+  background: orange;
+  flex: 1 0 auto;
+}
+footer{
+  background: #333;
+  flex: 0 0 auto;
+}
+————————————————
+版权声明：本文为CSDN博主「NINE-NINE」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/m0_38099607/java/article/details/71598423
